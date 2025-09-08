@@ -116,6 +116,17 @@ const Portfolio = () => {
 
   const projects = [
     {
+      title: "Dual-Model NLP Retrieval System",
+      description: "Built an NLP-powered retrieval system using Python with Qdrant and Faiss to perform similarity search across vector databases generated from JSON files.",
+      technologies: ["Python", "Qdrant", "Faiss", "Large Language Models (LLMs)", "Vector Databases", "APIs"],
+      achievements: [
+        "Designed a dual-model architecture for accurate semantic search and ranking",
+        "Implemented efficient vectorization and indexing of JSON data",
+        "Integrated Qdrant and Faiss to handle hybrid similarity queries with low latency",
+        "Optimized search to return top relevant results in under 200ms for large datasets"
+      ]
+    },
+    {
       title: "Self-Driving Surveillance Car",
       description: "Engineered a self-driving car prototype in Unity with obstacle avoidance capabilities achieving 95% accuracy in defined test cases.",
       technologies: ["Unity", "Python", "Flask", "Redis"],
@@ -124,6 +135,16 @@ const Portfolio = () => {
         "Developed Flask application for concurrent alert system supporting 1000+ users",
         "Implemented Redis for efficient task queuing and asynchronous processing",
         "Achieved 90% reduction in email delivery time for emergency notifications"
+      ]
+    },
+    {
+      title: "Campus E-Wallet",
+      description: "Developed a digital wallet for college students inspired by PayPal, enabling secure transactions and simplified payments within the campus community.",
+      technologies: ["Django", "React", "PostgreSQL", "REST APIs"],
+      achievements: [
+        "Designed a responsive React frontend with real-time transaction updates",
+        "Implemented secure user authentication and authorization using Django",
+        "Built REST APIs for wallet top-ups, transfers, and payment history"
       ]
     }
   ];
@@ -142,7 +163,7 @@ const Portfolio = () => {
           <div className="space-y-8">
             <div className="text-center mb-12">
               <h1 className="text-5xl font-bold text-white mb-4">Sai Krishna Doultabad</h1>
-              <p className="text-xl text-gray-300 mb-6">Software Developer (Most Days)</p>
+              <p className="text-xl text-gray-300 mb-6">Software Engineer (Most Days)</p>
               <div className="flex flex-wrap justify-center gap-6 text-gray-400">
                 <div className="flex items-center gap-2">
                   <MapPin className="w-4 h-4" />
@@ -163,7 +184,7 @@ const Portfolio = () => {
               <h2 className="text-3xl font-semibold text-white mb-6">Professional Summary</h2>
               <div className="bg-gray-900 p-6 rounded-lg border border-gray-800">
                 <p className="text-gray-300 text-lg leading-relaxed">
-                  I build full-stack applications, design scalable systems, and integrate AI/VR experiences. I’ve delivered high-performance, secure, and user-focused solutions using .NET, Angular, React, Spring Boot, SQL, Python, and Java for organizations like Deloitte, Paycom, and the University of North Texas.
+                  I build full-stack applications, design scalable systems, and integrate AI/VR experiences. I’ve delivered high-performance, secure, and user-focused solutions using Python, .NET, Angular, React and SQL for organizations like Deloitte, Paycom, and the University of North Texas.
 
                   I’m passionate about modern frameworks, databases, and cloud platforms, and love turning ideas into real products. I enjoy tackling challenging problems and continuously learning new technologies.
                 </p>
