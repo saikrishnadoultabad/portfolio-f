@@ -81,7 +81,7 @@ const Portfolio = () => {
       location: "",
       technologies: ["Angular", ".NET Core", "C#", "Microsoft SQL Server", "Azure DevOps", "Azure Key Vault", "Tableau", "SQLBulkCopy", "REST APIs"],
       achievements: [
-        "Transformed Windows application to web app using Angular, improving performance by 100%",
+        "Transformed Windows application to web app using Angular, improving performance by over 100%",
         "Implemented scalable RESTful APIs in .NET Core/C# reducing code latency by 40%",
         "Optimized database performance with clustered indexing, improving query time by 65%",
         "Deployed applications using Azure DevOps with 30% improvement in deployment efficiency",
@@ -90,7 +90,7 @@ const Portfolio = () => {
       ]
     },
     {
-      title: "Software Development Intern",
+      title: "Software Developer",
       company: "Apollo Telehealth Services",
       period: "Feb 2021 – Jun 2021",
       location: "",
@@ -146,6 +146,25 @@ const Portfolio = () => {
         "Implemented secure user authentication and authorization using Django",
         "Built REST APIs for wallet top-ups, transfers, and payment history"
       ]
+    },
+    {
+      title: "Classification of Activities using EMG Data",
+      description: "Developed a machine learning algorithm to classify physical activities based on features extracted from EMG signals using Matlab.",
+      technologies: ["Matlab", "Machine Learning", "Signal Processing", "EMG Data Analysis"],
+      achievements: [
+        "Collaborated in a team of three to preprocess and extract features from EMG datasets",
+        "Implemented classification models to accurately label activities based on EMG signals",
+        "Analyzed model performance and optimized feature selection to improve classification accuracy"
+      ]
+    },
+    {
+      title: "Ticket Booking App",
+      description: "Designed and developed a web-based ticket booking application using Django for streamlined event reservations.",
+      technologies: ["Django", "Python", "HTML", "CSS", "JavaScript", "Web Development"],
+      achievements: [
+        "Collaborated in a team of six to design and implement the full-stack web application",
+        "Built features for event listing, ticket selection, and booking management"
+      ]
     }
   ];
 
@@ -182,11 +201,9 @@ const Portfolio = () => {
 
             <div className="max-w-4xl mx-auto">
               <h2 className="text-3xl font-semibold text-white mb-6">Professional Summary</h2>
-              <div className="bg-gray-900 p-6 rounded-lg border border-gray-800">
+              <div className="bg-gray-900 p-4 rounded-lg border border-gray-800">
                 <p className="text-gray-300 text-lg leading-relaxed">
-                  I build full-stack applications, design scalable systems, and integrate AI/VR experiences. I’ve delivered high-performance, secure, and user-focused solutions using Python, .NET, Angular, React and SQL for organizations like Deloitte, Paycom, and the University of North Texas.
-
-                  I’m passionate about modern frameworks, databases, and cloud platforms, and love turning ideas into real products. I enjoy tackling challenging problems and continuously learning new technologies.
+                  I’m a software engineer and Master’s student in Computer Science with 3 years of professional experience at Deloitte, Paycom, and Apollo Telehealth. I specialize in full-stack development and scalable system design using technologies like .NET, React, Angular, Node.js, Python, and Java, and I am certified in Microsoft Azure Fundamentals (AZ-900). My work includes building AI-powered applications, optimizing databases and APIs, and creating high-performance systems that improve user experience. I’m passionate about developing innovative, secure, and efficient software that solves real-world problems.
                 </p>
               </div>
             </div>
@@ -265,7 +282,7 @@ const Portfolio = () => {
                       <Calendar className="w-4 h-4" />
                       <span>Jan 2024 – Dec 2025</span>
                     </div>
-                    <div className="text-green-400 font-semibold mt-1">GPA: 4.00</div>
+                    <div className="text-green-400 font-semibold mt-1">GPA: 4.00/4.00</div>
                   </div>
                 </div>
               </div>
@@ -281,7 +298,7 @@ const Portfolio = () => {
                       <Calendar className="w-4 h-4" />
                       <span>Aug 2017 – May 2021</span>
                     </div>
-                    <div className="text-green-400 font-semibold mt-1">GPA: 3.50</div>
+                    <div className="text-green-400 font-semibold mt-1">GPA: 8.73/10.00</div>
                   </div>
                 </div>
               </div>
@@ -407,7 +424,7 @@ const Portfolio = () => {
                     <Linkedin className="w-6 h-6 text-blue-400" />
                     <div>
                       <h3 className="text-white font-semibold">LinkedIn</h3>
-                      <a href="#" className="text-blue-400 hover:text-blue-300 transition-colors">
+                      <a href="https://www.linkedin.com/in/sai-krishna-doultabad-157709194/" className="text-blue-400 hover:text-blue-300 transition-colors">
                         Connect with me
                       </a>
                     </div>
@@ -417,7 +434,7 @@ const Portfolio = () => {
                     <Github className="w-6 h-6 text-blue-400" />
                     <div>
                       <h3 className="text-white font-semibold">GitHub</h3>
-                      <a href="#" className="text-blue-400 hover:text-blue-300 transition-colors">
+                      <a href="https://github.com/saikrishnadoultabad" className="text-blue-400 hover:text-blue-300 transition-colors">
                         View my projects
                       </a>
                     </div>
@@ -437,15 +454,15 @@ const Portfolio = () => {
     <div className="min-h-screen bg-black text-white">
       {/* Random Fact Popup */}
       {showFact && (
-        <div className="fixed top-20 right-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white p-4 rounded-lg shadow-lg z-50 max-w-md border-2 border-purple-400">
-          <div className="flex items-start gap-2">
-            <div>
+        <div className="fixed top-20 right-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white p-4 rounded-lg shadow-lg z-50 max-w-md min-w-80 border-2 border-purple-400">
+          <div className="flex items-center gap-2">
+            <div className="flex-1">
               <h4 className="font-bold text-sm mb-1">Random Fact About Me!</h4>
               <p className="text-sm">{currentFact}</p>
             </div>
             <button
               onClick={() => setShowFact(false)}
-              className="text-white hover:text-gray-200 ml-2"
+              className="text-white hover:text-gray-200 flex-shrink-0"
             >
               ×
             </button>
@@ -459,7 +476,7 @@ const Portfolio = () => {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center gap-2">
               <CodeXml className="w-8 h-8 text-blue-400" />
-              <span className="text-xl font-bold text-white">SK Portfolio</span>
+              <span className="text-xl font-bold text-white">Sai Krishna Portfolio</span>
               <button
                 onClick={getRandomFact}
                 className="ml-4 px-3 py-1 bg-purple-600 hover:bg-purple-700 text-white text-sm rounded-full transition-colors"
