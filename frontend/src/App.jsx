@@ -52,13 +52,23 @@ const Portfolio = () => {
       company: "University of North Texas",
       period: "Apr 2024 – Present",
       location: "Texas",
-      technologies: ["Unity", "OpenAI Whisper API", "Python", "FAISS", "Qdrant", "React", "Node.js", "MongoDB", "WebSockets", "Unity Render Streaming"],
+      technologies: [
+        "Unity",
+        "OpenAI Whisper API",
+        "Python",
+        "C++",
+        "FAISS",
+        "Qdrant",
+        "PyTorch",
+        "CUDA",
+        "React",
+        "MongoDB",
+      ],
       achievements: [
-        "Integrated OpenAI's Whisper API into Unity VR experience achieving 98% real-time transcription accuracy",
-        "Increased user engagement by 40% through improved user experience in focus group sessions",
-        "Designed custom LLM-powered retrieval system using FAISS and Qdrant for high-accuracy vector queries",
-        "Developed session-based grading application in React, Node.js, and MongoDB for 25+ concurrent users",
-        "Implemented real-time audio streaming with Unity Render Streaming achieving <50ms latency"
+        "Built LLM-powered similarity search with FAISS & Qdrant, cutting latency by 40%",
+        "Integrated Whisper API in Unity, achieving 98% real-time transcription and +40% engagement",
+        "Developed React/Next.js grading app for 25+ concurrent users with Unity AI character",
+        "Implemented real-time audio streaming via Unity Render Streaming and WebSockets (<50ms latency)"
       ]
     },
     {
