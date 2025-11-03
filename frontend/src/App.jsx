@@ -48,27 +48,31 @@ const Portfolio = () => {
 
   const experiences = [
     {
-      title: "Research Assistant (AI/VR)",
-      company: "University of North Texas",
-      period: "Apr 2024 – Present",
-      location: "Texas",
-      technologies: [
-        "Unity",
-        "OpenAI Whisper API",
-        "Python",
+      "title": "Research Assistant (AI/VR)",
+      "company": "University of North Texas",
+      "period": "Apr 2024 – Present",
+      "location": "Denton, TX",
+      "technologies": [
         "C++",
+        "Unity",
+        "CUDA",
+        "Python",
+        "OpenAI Whisper API",
         "FAISS",
         "Qdrant",
         "PyTorch",
-        "CUDA",
         "React",
+        "Next.js",
         "MongoDB",
+        "CMake",
+        "WebSockets"
       ],
-      achievements: [
-        "Built LLM-powered similarity search with FAISS & Qdrant, cutting latency by 40%",
-        "Integrated Whisper API in Unity, achieving 98% real-time transcription and +40% engagement",
-        "Developed React/Next.js grading app for 25+ concurrent users with Unity AI character",
-        "Implemented real-time audio streaming via Unity Render Streaming and WebSockets (<50ms latency)"
+      "achievements": [
+        "Built a high-performance C++ video and audio pipeline for Unity-based VR simulations, reducing latency by 40% through multithreading and GPU acceleration.",
+        "Integrated OpenAI Whisper API for real-time speech recognition, achieving 98% accuracy and improving user engagement by 40%.",
+        "Developed LLM-powered similarity search using FAISS and Qdrant, cutting retrieval latency by 40%.",
+        "Created a React/Next.js grading app with Unity AI characters, supporting 25+ concurrent users with sub-50ms audio latency via WebSockets.",
+        "Optimized CPU/GPU utilization across Linux and Windows, reducing GPU memory footprint by 25% while maintaining 60 FPS."
       ]
     },
     {
@@ -213,7 +217,7 @@ const Portfolio = () => {
               <h2 className="text-3xl font-semibold text-white mb-6">Professional Summary</h2>
               <div className="bg-gray-900 p-4 rounded-lg border border-gray-800">
                 <p className="text-gray-300 text-lg leading-relaxed">
-                  I’m a software engineer and Master’s student in Computer Science with 3 years of professional experience at Deloitte, Paycom, and Apollo Telehealth. I specialize in full-stack development and scalable system design using technologies like .NET, React, Angular, Node.js, Python, and Java, and I am certified in Microsoft Azure Fundamentals (AZ-900). My work includes building AI-powered applications, optimizing databases and APIs, and creating high-performance systems that improve user experience. I’m passionate about developing innovative, secure, and efficient software that solves real-world problems.
+                  I’m a software engineer and Master’s student in Computer Science with 3 years of professional experience at Deloitte, Paycom, and Apollo Telehealth. I specialize in full-stack development and scalable system design using technologies like C++, .NET, React, Angular, Node.js, Python, and Java, and I am certified in Microsoft Azure Fundamentals (AZ-900). My work includes building low-latency systems, AI-powered applications, optimizing databases and APIs, and creating high-performance systems that improve user experience. I’m passionate about developing innovative, secure, and efficient software that solves real-world problems.
                 </p>
               </div>
             </div>
