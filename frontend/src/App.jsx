@@ -196,12 +196,12 @@ const Portfolio = () => {
           <div className="space-y-8">
             <div className="text-center mb-12">
               <h1 className="text-5xl font-bold text-white mb-4">Sai Krishna Doultabad</h1>
-              <p className="text-xl text-gray-300 mb-6">Software Engineer (Most Days)</p>
+              <p className="text-xl text-gray-300 mb-6">Software Engineer</p>
               <div className="flex flex-wrap justify-center gap-6 text-gray-400">
-                <div className="flex items-center gap-2">
+                {/* <div className="flex items-center gap-2">
                   <MapPin className="w-4 h-4" />
                   <span>Texas</span>
-                </div>
+                </div> */}
                 <div className="flex items-center gap-2">
                   <Phone className="w-4 h-4" />
                   <span>(940) 343-1307</span>
