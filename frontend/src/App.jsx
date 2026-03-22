@@ -465,7 +465,7 @@ const Portfolio = () => {
   };
 
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="min-h-screen bg-black text-white flex flex-col">
       {/* Random Fact Popup */}
       {showFact && (
         <div className="fixed top-20 right-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white p-4 rounded-lg shadow-lg z-50 max-w-md min-w-80 border-2 border-purple-400">
@@ -559,12 +559,12 @@ const Portfolio = () => {
       )}
 
       {/* Main Content */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-grow">
         {renderContent()}
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-gray-800 bg-gray-900/50 mt-16">
+      <footer className="border-t border-gray-800 bg-gray-900/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="text-center text-gray-400">
             <p>© Sai Krishna Doultabad. Built with React</p>
